@@ -1,0 +1,6 @@
+06 febrero 2021
+
+Las Particulas se mueven dentro de la caja pero aparentemente ganan energia cinetica y no se mantienen estables.
+* Orden del día: hacer función que calcula energia potencial para graficarla junto con las particulas.
+
+
