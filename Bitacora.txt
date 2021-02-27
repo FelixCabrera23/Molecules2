@@ -3,4 +3,29 @@
 Las Particulas se mueven dentro de la caja pero aparentemente ganan energia cinetica y no se mantienen estables.
 * Orden del día: hacer función que calcula energia potencial para graficarla junto con las particulas.
 
+21 febrero 2021
 
+Se separaran las funciónes de Moleculas 2 en un archivo separado: Modulo_funciónes.py
+
+### Se utilizo t = 0.0001 para optimizar el calculo del leap-frog ###
+
+
+IDEAS PARA CHUNK
+
+	** La función rebote debe ser un metodo que se implemente solo si la particula esta en un 
+	   chunk que sea limitrofe con las fronteras
+
+	** Por medio de estudiar el potencial se determino que la distancia optima sera aquella para la 
+	   Que el potencial sea menor que 0.005, o la fuerza menor a 0.01
+
+Pendiente:
+-- Definir clase chunk
+-- Definir algoritmo de ordenamiento
+-- Funciones basicas
+-- Poner lista de corrdenadas mundo
+-- Metodo de particula que la mueva solo a ella sin afectar al mundo
+-- Metodo que actualice las coordenadas de mundo
+-- Paralelización del proceso de mover.
+-- Funcion para guardar las coordenadas del mundo a archivo
+-- Funcion para calcular Energias del mundo
+-- Funciones para potenciales y energias.
